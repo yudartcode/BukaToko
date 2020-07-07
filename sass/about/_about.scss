@@ -1,0 +1,43 @@
+.about-area{
+	
+}
+.about-page{
+	.about-img{
+		figure{
+			img{
+				width: 100%;
+				display: block;
+			}
+		}
+	}
+	.about-con{
+		padding-top: 40px;
+		span{
+			font-size: 16px;
+			color: $primary-color;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			font-family: $title-font;
+		}
+		h2{
+			font-family: $title-font;
+			font-size: 30px;
+			font-weight: 700;
+			color: #111;
+			text-transform: uppercase;
+		}
+		p{
+			color: #a5a5a5;
+			font-size: 16px;
+			font-family: $two;
+			font-style: italic;
+		}
+		a{
+			padding: 0 50px;
+			margin: 15px 0 30px;
+		}
+		img{
+			display: block;
+		}
+	}
+}

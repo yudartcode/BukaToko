@@ -1,0 +1,293 @@
+header{
+	.topbar{
+		background: #333333 scroll 0 0;
+		position: relative;
+		display: block;
+		line-height: 58px;
+		height: 58px;
+		.top-l-social{
+			ul{
+				li{
+					padding: 0 4px;
+					margin: 0;
+					a{
+						display: block;
+						height: 27px;
+						line-height: 27px;
+						width:27px;
+						text-align: center;
+						color: #fff;
+						background: #434242;
+						border-radius: 3px;
+						&:hover{
+							background:$primary-color;
+						}
+					}
+				}
+			}
+		}
+		.top-linked{
+			ul{
+				li{
+					padding-left: 30px;
+					&:first-child{
+						padding:0;
+					}
+					a{
+						display: block;
+						color: #fff;
+						i{
+							padding-right: 10px;
+						}
+						span{
+
+						}
+						&:hover{
+							color: $primary-color;
+						}
+					}
+				}
+			}
+		}
+	}
+	.topber2{
+		display: block;
+		background: #333;
+		line-height: 60px;
+		height: 60px;
+		position: relative;
+		.info-top{
+			ul{
+				li{
+					color: #a5a5a5;
+					letter-spacing: 0;
+					position: relative;
+					margin: 0;
+					padding: 0 15px;
+					&:after{
+						content:'';
+						position: absolute;
+						right: -1px;
+						width: 2px;
+						background: #434242;
+						top: 22px;
+						bottom: 22px;
+						background: #434242;
+					}
+					&:first-child{
+						padding-left: 0;
+					}
+					&:last-child{
+						padding-right: 0;
+						&:after{
+							display:none;
+						}
+					}
+					i{
+						padding-right: 8px;
+					}
+					span{
+						color: $primary-color;
+					}
+				}
+			}
+		}
+		.topber-link{
+			ul{
+				li{
+					padding: 0 14px;
+					a{
+						color: #a5a5a5;
+						&:hover{
+							color:$primary-color;
+						}
+						span{
+							padding-right: 8px;
+						}
+					}
+					&:first-child{
+						padding-left: 0;
+					}
+					&:last-child{
+						padding-right: 0;
+						a{
+							display: block;
+							line-height: 40px;
+							background: $primary-color;
+							color: #fff;
+							padding: 0 20px;
+							border-radius: 5px;
+							i{
+								padding-right: 5px;
+							}
+							&:hover{
+								background: #fff;
+								color: #333;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.topber3{
+		display: block;
+		background: #333;
+		line-height: 60px;
+		height: 60px;
+		position: relative;
+		.info-top{
+			ul{
+				li{
+					color: #a5a5a5;
+					letter-spacing: 0;
+					position: relative;
+					margin: 0;
+					padding: 0 15px;
+					&:after{
+						content:'';
+						position: absolute;
+						right: -1px;
+						width: 2px;
+						background: #434242;
+						top: 22px;
+						bottom: 22px;
+						background: #434242;
+					}
+					&:first-child{
+						padding-left: 0;
+					}
+					&:last-child{
+						padding-right: 0;
+						&:after{
+							display:none;
+						}
+					}
+					i{
+						padding-right: 8px;
+					}
+					span{
+						color: $primary-color2;
+					}
+				}
+			}
+		}
+		.topber-link{
+			ul{
+				li{
+					padding: 0 14px;
+					a{
+						color: #a5a5a5;
+						&:hover{
+							color:$primary-color2;
+						}
+						span{
+							padding-right: 8px;
+						}
+					}
+					&:first-child{
+						padding-left: 0;
+					}
+					&:last-child{
+						padding-right: 0;
+						a{
+							display: block;
+							line-height: 40px;
+							background: $primary-color2;
+							color: #fff;
+							padding: 0 20px;
+							border-radius: 5px;
+							i{
+								padding-right: 5px;
+							}
+							&:hover{
+								background: #fff;
+								color: #333;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.topber4{
+		display: block;
+		background: #333;
+		line-height: 60px;
+		height: 60px;
+		position: relative;
+		.info-top{
+			ul{
+				li{
+					color: #a5a5a5;
+					letter-spacing: 0;
+					position: relative;
+					margin: 0;
+					padding: 0 15px;
+					&:after{
+						content:'';
+						position: absolute;
+						right: -1px;
+						width: 2px;
+						background: #434242;
+						top: 22px;
+						bottom: 22px;
+						background: #434242;
+					}
+					&:first-child{
+						padding-left: 0;
+					}
+					&:last-child{
+						padding-right: 0;
+						&:after{
+							display:none;
+						}
+					}
+					i{
+						padding-right: 8px;
+					}
+					span{
+						color: $primary-color;
+					}
+				}
+			}
+		}
+		.topber-link{
+			ul{
+				li{
+					padding: 0 14px;
+					a{
+						color: #a5a5a5;
+						&:hover{
+							color:$primary-color;
+						}
+						span{
+							padding-right: 8px;
+						}
+					}
+					&:first-child{
+						padding-left: 0;
+					}
+					&:last-child{
+						padding-right: 0;
+						a{
+							display: block;
+							line-height: 40px;
+							background: $primary-color;
+							color: #fff;
+							padding: 0 20px;
+							border-radius: 5px;
+							i{
+								padding-right: 5px;
+							}
+							&:hover{
+								background: #fff;
+								color: #333;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

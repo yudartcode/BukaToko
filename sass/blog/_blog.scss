@@ -1,0 +1,140 @@
+.blog-area{
+	.blog{
+		display: block;
+		position: relative;
+		width: 100%;
+		margin: 0 0 30px;
+		figure{
+			display: block;
+			position: relative;
+			width: 100%;
+			padding: 0;
+			margin: 0 0 40px;
+			img{
+				display: block;
+				width: 100%;
+				transition: $transition;
+			}
+			span{
+				display: inline-block;
+				background: $color-two;
+				color: #fff;
+				line-height: 28px;
+				text-transform: uppercase;
+				padding:0 10px;
+				position: absolute;
+				left: 0;
+				bottom: -14px; 
+				transition: $transition;
+			}
+		}
+		.content{
+			.headings{
+				display: block;
+				position: relative;
+				overflow: hidden;
+				vertical-align: middle;
+				margin: 0 0 15px;
+				.data{
+					display: inline-block;
+					text-align: center;
+					float: left;
+					padding: 0 15px;
+					span{
+						color: $color-two;
+						display: block;
+						font-family: $title-font;
+						font-weight: 700;
+						font-size: 18px;
+						text-transform: uppercase;
+					}
+				}
+				h3{
+					display: table;
+					font-weight: 600;
+					font-size: 20px;
+					color: #333333;
+					margin: 0;
+					padding: 2px 0 0;
+					a{
+						color: #333333;
+						&:hover{
+							color:$color-two;
+						}
+					}
+				}
+			}
+			p{
+				font-family: $two;
+				font-style: italic;
+				color: #a5a5a5;
+				font-weight: 500;
+				font-size: 14px;
+				margin: 0;
+			}
+		}
+	}
+}
+.blog-area-two{
+	.blog2{
+		display: block;
+		margin: 0 0 30px;
+		figure{
+			position: relative;
+			display: block;
+			overflow: hidden;
+			vertical-align: middle;
+			margin: 0 0 40px;
+			img{
+				display: block;
+				width: 100%;
+				transition: $transition;
+			}
+		}
+		.content{
+			display: block;
+			position: relative;
+			h3{
+				font-weight: 500;
+				font-size: 21px;
+				a{
+					color: #333333;
+					display: block;
+					&:hover{
+						color:$primary-color;
+					}
+				}
+			}
+			p{
+				font-family: $two;
+				font-style: italic;
+				color: #a5a5a5;
+			}
+			.post-det{
+				display: block;
+				line-height: 30px;
+				background: #eaeaea;
+				width: 100%;
+				text-align: center;
+				font-size: 12px;
+				color: #333;
+				text-transform: uppercase;
+				span{
+					font-weight: 300;
+					font-style: normal;
+				}
+				em{
+					font-weight: 700;
+					font-style: italic;
+				}
+			}
+		}
+		&:hover{
+			figure{
+				img{
+					transform: scale(1.1,1.1);
+				}
+			}
+		}
+	}
+}

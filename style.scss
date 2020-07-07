@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Montserrat:100,300,400,500,600,700,800,900|Roboto:100,300,400,500,700,900');
+/*-------------------------------------
+    Template Name: The Mart 
+    Description: This is html5 template
+    Author: webstrot
+    Version: 1.0
+---------------------------------------
+    
+    CSS INDEX
+    ===================
+	
+    1. Theme Default CSS (body, link color, section etc)
+	2. Header area start here
+	3. Slider area start here
+	4. About area start here
+	1. Banner area start here
+	1. Blog area start here
+	1. Contact area start here
+	1. Footer area start here
+	1. Breadcumb area start here
+	1. Faq area start here
+
+---------------------------------------*/
+
+/*....................................
+1.Theme default CSS
+....................................*/
+$body-font: 'Roboto', sans-serif;
+$title-font: 'Montserrat', sans-serif;
+$two: Constantia;
+$three: 'Dancing Script', cursive;
+$primary-color: #ea2c58;
+$primary-color2: #c1a880;
+$color-two: #f4454a;
+$transition: all 0.3s;
+html,
+body {
+  font-size: 14px;
+  color: #333333;
+  font-family: $body-font;
+  vertical-align: baseline;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
+}
+main{
+  display: block;
+  width: 100%;
+  position: relative;
+  padding: 50px 0 70px;
+}
+.home5{
+  background: #fafafa;
+  display: block;
+  position: relative;
+  width: 100%;
+}
+/* ....................................
+1.1 Reset CSS 
+.......................................*/
+@import 'sass/defaults/_defaults.scss';
+
+
+
+/*....................................
+2. Header area start here
+....................................*/
+@import 'sass/header/_con.scss';
+
+
+/*....................................
+3. Slider area start here
+....................................*/
+@import 'sass/slider/_slider.scss';
+
+
+/*....................................
+4. About area start here
+....................................*/
+@import 'sass/about/_about.scss';
+
+
+/*....................................
+7. Blog area start here
+....................................*/
+@import 'sass/blog/_con.scss';
+
+
+
+/*....................................
+9. Contact area start here
+....................................*/
+@import 'sass/contact/_con.scss';
+
+
+/*....................................
+10. Footer area start here
+....................................*/
+@import 'sass/footer/_con.scss';
+
+
+/*....................................
+11. Breadcumb area start here
+....................................*/
+@import 'sass/breadcumb/_breadcumb.scss';
+
+
+
+/*....................................
+6. Banner area start here
+....................................*/
+@import 'sass/banner/_banner.scss';
+
+
+
+/*....................................
+5. Team area start here
+....................................*/
+@import 'sass/team/_team.scss';
+
+
+/*....................................
+8. Price list area start here
+....................................*/
+@import 'sass/price-list/_pricelist.scss';
+
+
+/*....................................
+12. Faq area start here
+....................................*/
+@import 'sass/faq/_faq.scss';
+
+
+/*....................................
+12. Info area start here
+....................................*/
+@import 'sass/info/_info.scss';
+
+
+/*....................................
+12. categories area start here
+....................................*/
+@import 'sass/categories/_categories.scss';
+
+
+/*....................................
+12. Product area start here
+....................................*/
+@import 'sass/product/_product.scss';
+
+
+/*....................................
+12. Subscribe area start here
+....................................*/
+@import 'sass/subscribe/_subscribe.scss';
+
+
+/*....................................
+12. Services area start here
+....................................*/
+@import 'sass/services/_services.scss';
+
+
+/*....................................
+12. Sidebar area start here
+....................................*/
+@import 'sass/sidebar/_sidebar.scss';
+
+
+/*....................................
+12. Form area start here
+....................................*/
+@import 'sass/form/_form.scss';

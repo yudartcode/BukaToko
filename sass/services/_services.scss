@@ -1,0 +1,40 @@
+.services-area{
+	display: block;
+	position: relative;
+	background: #f3f2f0;
+	padding: 64px 0 34px;
+	.services-list{
+		display: block;
+		position: relative;
+		margin: 0 0 30px;
+		.services-ico{
+			display: inline-block;
+			width: 90px;
+			float: left;
+			position: relative;
+			margin-right: 25px;
+			img{
+				width: 100%;
+			}
+		}
+		.services-con{
+			display: table;
+			position: relative;
+			padding: 10px 0;
+			h4{
+				margin: 0 0 15px;
+				font-weight: 700;
+				font-size: 15px;
+				text-transform: uppercase;
+				color: #333333;
+			}
+			p{
+				margin: 0;
+				font-family: $two;
+				color: #a5a5a5;
+				font-style: italic;
+				line-height: 20px;
+			}
+		}
+	}
+}

@@ -1,0 +1,259 @@
+/***All plugins Reset***/
+.offer-banner{
+	.owl-controls{
+		margin: 0;
+		.owl-buttons{
+			position: absolute;
+			left: 20px;
+			bottom: 20px;
+			div{
+				opacity: 1;
+				display: block;
+				border-radius: 0;
+				background: #333333;
+				color: #fff;
+				width: 42px;
+				height: 52px;
+				line-height: 52px;
+				text-align: center;
+				padding: 0;
+				margin: 0;
+				transition: $transition;
+				&:hover{
+					background:$primary-color;
+				}
+				&.owl-prev{
+					border-bottom: 1px solid #434242;
+				}
+				&.owl-next{
+
+				}
+			}
+		}
+	}
+}
+.faq-brand{
+	.owl-controls{
+		margin: 0;
+		.owl-pagination{
+			.owl-page{
+				padding: 0 2px;
+				span{
+					width: 17px;
+					height: 17px;
+					background: #f7f7f7;
+					opacity: 1;
+					position: relative;
+					margin: 0 3px;
+					&:after{
+						content:'';
+						position: absolute;
+						left: 0;
+						right: 0;
+						top: 0;
+						bottom: 0;
+						border:3px solid $primary-color;
+						border-radius: 100%;
+						opacity: 0;
+						transition: $transition;
+					}
+				}
+				&.active{
+					span{
+						background: transparent;
+						&:after{
+							opacity:1;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.slider-area-banner{
+	.owl-controls{
+		margin: 0;
+		.owl-buttons{
+			position: absolute;
+			left: 50px;
+			right: 50px;
+			top:42%;
+			div{
+				opacity: 1;
+				display: inline-block;
+				border-radius: 0;
+				background: $primary-color;
+				color: #fff;
+				width: 42px;
+				height: 52px;
+				line-height: 52px;
+				text-align: center;
+				padding: 0;
+				margin: 0;
+				position: absolute;
+				transition: $transition;
+				font-size: 17px;
+				&:hover{
+					background:#fff;
+					color: #333;
+				}
+				&.owl-prev{
+					left: 0;
+				}
+				&.owl-next{
+					right: 0;
+				}
+			}
+		}
+	}
+}
+.collections-area{
+	.owl-controls{
+		.owl-pagination{
+			position: absolute;
+			bottom: 25px;
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+			.owl-page{
+				span{
+					width: 10px;
+					height: 10px;
+					opacity: 1;
+					background: $primary-color;
+					margin: 0 2px;
+					transition: $transition;
+				}
+				&.active{
+					span{
+						background: transparent;
+						border: 2px solid $primary-color;
+					}
+				}
+			}
+		}
+		.owl-buttons{
+			position: absolute;
+			left: 30px;
+			right: 30px;
+			top: 28%;
+			div{
+				background: transparent;
+				opacity: 1;
+				border-radius: 0;
+				color: #333;
+				font-size: 30px;
+				position: absolute;
+				opacity: 0;
+				transition: $transition;
+				&:hover{
+					color:$primary-color;
+				}
+				&.owl-prev{
+					left: -30px;
+				}
+				&.owl-next{
+					right: -30px;
+				}
+			}
+		}
+
+	}
+
+}
+.categories-area-three{
+	.owl-controls{
+		margin:0;
+		display: block; 
+		.owl-buttons{
+			position: absolute;
+			top: 40%;
+			left: 0;
+			right: 0;
+			div{
+				background: #fff;
+				color: #a5a5a5;
+				border-radius: 0;
+				font-size: 50px;
+				background: transparent;
+				opacity: 1;
+				position: absolute;
+				&:hover{
+					color:$primary-color;
+				}
+				&.owl-prev{
+					left: -55px;
+				}
+				&.owl-next{
+					right: -55px;
+				}
+			}
+		}
+	}
+}
+.mfp-title{
+	display:none;
+}
+.home5_sidebar{
+	.owl-controls{
+		margin: 0;
+		.owl-pagination{
+			position: absolute;
+			left: 20px;
+			bottom: 25px;
+			line-height: 6px;
+			.owl-page{
+				span{
+					margin: 0 2px;
+					width: 6px;
+					height: 6px;
+					opacity: 0.2;
+					background: $primary-color2;
+					transition: $transition;
+				}
+				&.active{
+					span{
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
+}
+.offer-banner-three{
+	.owl-controls{
+		margin: 0;
+		.owl-buttons{
+			position: absolute;
+			left: 50px;
+			right: 50px;
+			top:42%;
+			div{
+				opacity: 1;
+				display: inline-block;
+				border-radius: 0;
+				background: $primary-color;
+				color: #fff;
+				width: 42px;
+				height: 52px;
+				line-height: 52px;
+				text-align: center;
+				padding: 0;
+				margin: 0;
+				position: absolute;
+				transition: $transition;
+				font-size: 17px;
+				&:hover{
+					background:#fff;
+					color: #333;
+				}
+				&.owl-prev{
+					left: 0;
+				}
+				&.owl-next{
+					right: 0;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,268 @@
+.info-area{
+	display: block;
+	width: 100%;
+	margin-top: -75px;
+	.info-list{
+		display: block;
+		background: #fbfafa;
+		padding: 45px 0;
+		transition: $transition;
+		margin: 0 0 30px;
+		span{
+			color: #333333;
+			font-size: 20px;
+			display: block;
+			margin: 0 0 30px;
+			i{
+
+			}
+		}
+		h4{
+			font-family: $title-font;
+			font-weight: 700;
+			color: #333333;
+			display: block;
+			margin: 0;
+			text-transform: uppercase; 
+		}
+		p{
+			font-family: $two;
+			font-style: italic;
+			color: #a5a5a5;
+			font-size: 14px;
+			margin: 0;
+			display: block;
+		}
+		&:hover{
+			box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+		}
+	}
+}
+.collections-area{
+	.headers{
+		display: block;
+		position: relative;
+		margin: 0 0 54px;
+		p{
+			font-family: $two;
+			font-style: italic;
+			color: #a5a5a5;
+			margin: 0 0 8px;
+		}
+		h3{
+			font-family: $title-font;
+			font-weight: 700;
+			text-transform: uppercase;
+			margin: 0;
+			font-size: 27px;
+		}
+	}
+	.top-seller{
+		.top-pro-list{
+			display: block;
+			width: 100%;
+			position: relative;
+			margin: 0 0 30px;
+			float: left;
+			&:last-child{
+				margin:0;
+			}
+			figure{
+				max-width: 180px;
+			    float: left;
+			    clear: both;
+			    padding-right: 20px;
+				img{
+					width: 100%;
+				}
+			}
+			.content{
+				h4{
+					font-size: 17px;
+					font-weight: 700;
+					text-transform: uppercase;
+					margin: 10px 0 10px;
+					letter-spacing: 2px;
+					line-height: 30px; 
+					a{
+						color: #333;
+						&:hover{
+							color:$primary-color;
+						}
+					}
+				}
+				ul{
+					margin: 0 0 10px;
+					display: block;
+					li{
+						padding: 0;
+						color: $primary-color;
+						font-size: 19px;
+						&:last-child{
+							color:#a5a5a5;
+						}
+						i{
+
+						}
+					}
+				}
+				strong{
+					display: block;
+					font-size: 18px;
+					font-weight: 700;
+					margin: 0 0 10px;
+				}
+				a{
+
+				}
+			}
+		}
+	}
+	.testimonil-list{
+		display: block;
+		background: #fbfafa;
+		padding: 40px 30px;
+		figure{
+			display: block;
+			max-width: 168px;
+			margin: 0 auto 24px;
+			border-radius: 100%;
+			img{
+				width: 100%;
+				border-radius: 100%;
+				transition: $transition;
+			}
+			&:hover{
+				img{
+					opacity: 0.7;
+				}
+			}
+		}
+		h4{
+			font-size: 20px;
+			font-weight: 700;
+			text-transform: uppercase;
+			margin: 0 0 15px;
+		}
+		ul{
+			margin: 0 0 15px;
+			display: block;
+			li{
+				padding: 0;
+				color: $primary-color;
+				font-size: 19px;
+				&:last-child{
+					color:#a5a5a5;
+				}
+			}
+		}
+		p{
+			font-family: $two;
+			font-style: italic;
+			color: #333333;
+			margin: 0 0 30px;
+		}
+	}
+	.collections-men-slider{
+		&:hover{
+			.owl-controls{
+				.owl-buttons{
+					div{
+						opacity: 1;
+						&.owl-prev{
+							left: 0;
+						}
+						&.owl-next{
+							right: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+	.collectionslist{
+		
+		figure{
+			display: block;
+			position: relative;
+			width: 100%;
+			img{	
+				width: 100%;
+			}
+		}
+		.content{
+			display: block;
+			position: relative;
+			width: 100%;
+			background: #fbfafa;
+			text-align: center;
+			padding-top: 25px;
+			h4{
+				font-weight: 700;
+				font-size: 17px;
+				text-transform: uppercase;
+				margin: 0 0 5px;
+			}
+			strong{
+				font-weight: 700;
+				font-size: 20px;
+				color: $primary-color;
+				display: block;
+				margin: 0 0 20px;
+			}
+			a{
+				display: block;
+				background: $primary-color;
+				color: #fff;
+				height: 70px;
+				line-height: 70px;
+				padding: 0 35px;
+				font-size: 15px;
+				font-weight: 700;
+				text-transform: uppercase;
+				text-align: left;
+				&:hover{
+					background:#333;
+				}
+				span{
+					font-weight: 400;
+					float: right;
+				}
+			}
+		}
+	}
+}
+.info-area2{
+	.info-list{
+		display: block;
+		background: #fff;
+		border: 1px solid #eae6db;
+		text-align: center;
+		height: 190px;
+		padding: 45px 0;
+		margin: 0 0 35px;
+		transition: $transition;
+		&:hover{
+			box-shadow:0 5px 10px rgba(0, 0, 0, 0.1);
+		}
+		span{
+			color: #333;
+			font-size: 20px;
+			display: block;
+			margin: 0 0 28px;
+		}
+		h4{
+			font-family: $title-font;
+			font-weight: 700;
+			color: #333;
+			margin: 0 0 5px;
+			text-transform: uppercase;
+		}
+		p{
+			margin: 0;
+			font-family: $two;
+			color: #a5a5a5;
+			font-style: italic;
+		}
+	}
+}

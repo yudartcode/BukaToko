@@ -1,0 +1,85 @@
+.contatc-us{
+	.info-list{
+		display: block;
+		position: relative;
+		margin: 0 0 30px;
+		span{
+			display: block;
+			width: 80px;
+			height: 80px;
+			margin: 0 auto 30px;
+			border:2px solid #e0e0e0;
+			line-height: 76px;
+			text-align: center;
+			img{
+				display: inline-block;
+			}
+		}
+		h4{
+			color: $primary-color;
+			font-weight: 700;
+			font-size: 15px;
+			text-transform: uppercase;
+			margin: 0 0 10px;
+		}
+		p{
+			margin: 0;
+			color: #a5a5a5;
+			font-family: $two;
+			font-style: italic;
+			font-size: 14px;
+			letter-spacing: 0;
+		}
+	}
+	.contact-form{
+		display: block;
+		position: relative;
+		background: #2d2d2d;
+		padding: 80px 40px;
+		margin: -30px 0 0;
+		h2{
+			font-size: 32px;
+			font-family: $title-font;
+			font-weight: 700;
+			text-transform: uppercase;
+			color: $primary-color;
+			margin: 0 0 35px;
+		}
+		form{
+			width: 70%;
+			display: block;
+			fieldset{
+				display: block;
+				margin: 0 0 30px;
+				input{
+					width: 100%;
+					border:1px solid rgba(255, 255, 255, 0.1);
+					height: 50px;
+					line-height: 48px;
+					padding: 0 20px;
+					background: transparent;
+					color: #fff;
+					transition: $transition;
+					&:focus{
+						border:1px solid $primary-color;
+					}
+				}
+				textarea{	
+					width: 100%;
+					border:1px solid rgba(255, 255, 255, 0.1);
+					height: 220px;
+					padding:20px;
+					background: transparent;
+					color: #fff;
+					transition: $transition;
+					&:focus{
+						border:1px solid $primary-color;
+					}
+				}
+			}
+			button{
+				padding: 0 50px;
+			}
+		}
+	}
+}

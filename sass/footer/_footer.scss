@@ -1,0 +1,113 @@
+footer{
+	
+}
+.daily-deal{
+	background: url(images/banner/bg-1.jpg);
+	&:after{
+		background:rgba(0, 0, 0, 0.7);
+	}
+	.widghet{
+		position: relative;
+		z-index: 999;
+		margin: 0 0 50px;
+		h4{
+			font-family: $title-font;
+			font-weight: 400;
+			font-size: 18px;
+			color: #fff;
+			margin: 0 0 50px;
+			padding-bottom: 15px;
+			position: relative;
+			&:after{
+				content:'';
+				position: absolute;
+				left: 0;
+				bottom: 0;
+				width: 10px;
+				height: 3px;
+				background: $primary-color;
+			}
+		}
+	}
+	.recent-post{
+		.post-list{
+			display: block;
+			margin: 0 0 20px;
+			&:last-child{
+				margin:0;
+			}
+			figure{
+				width: 100px;
+				float: left;
+				display: inline-block; 
+				img{
+					width: 100%;
+				}
+			}
+			.content{
+				display: table;
+				background: #333333;
+				padding: 21px 20px;
+				h5{
+					font-family: $two;
+					font-size: 14px;
+					font-style: italic;
+					font-weight: 600;
+					margin: 0 0 10px;
+					font-weight: 400;
+					letter-spacing: 0;
+					a{
+						color: #fff;
+						&:hover{
+							color:$primary-color;
+						}
+					}
+				}
+				span{
+					color: $primary-color;
+					text-transform: uppercase;
+				}
+			}
+		}
+	}
+	.products-deal{
+		.product-lists{
+			display: block;
+			margin: 0 0 20px;
+			&:last-child{
+				margin:0;
+			}
+			figure{
+				width: 100px;
+				float: left;
+				display: inline-block; 
+				img{
+					width: 100%;
+				}
+			}
+			.content{
+				display: table;
+				padding: 21px 20px;
+				h5{
+					font-family: $two;
+					font-size: 14px;
+					font-style: italic;
+					font-weight: 600;
+					margin: 0 0 10px;
+					font-weight: 400;
+					letter-spacing: 0;
+					a{
+						color: #fff;
+						&:hover{
+							color:$primary-color;
+						}
+					}
+				}
+				span{
+					color: $primary-color;
+					text-transform: uppercase;
+				}
+			}
+		}
+	}
+}

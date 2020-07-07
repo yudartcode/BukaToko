@@ -1,0 +1,130 @@
+.faq-content{
+	.panel-group{
+		.panel{
+			border-radius: 0;
+			.panel-heading{
+				padding: 0;
+				border-radius: 0;
+				h4{
+					margin: 0;
+					font-family: $title-font;
+					font-weight: 700;
+					color: #fff;
+					display: block;
+					a{
+						display: block;
+						line-height:74px;
+						padding:0 45px; 
+						background: $primary-color;
+						color: #fff;
+						position: relative;
+						padding-left: 80px;
+						&:after{
+							content:'\f13d';
+							position: absolute;
+							left: 28px;
+							font-size: 20px;
+							line-height: 74px;
+							color: #fff;
+							font-family: FontAwesome;
+						}
+						&.collapsed{
+							background: #f7f7f7;
+							color: #333333;
+							&:after{
+								color:#333;
+							}
+						}
+					}
+				}
+			}
+			.panel-collapse{
+				.panel-body{
+					padding: 15px 30px;
+					p{
+						font-size: 16px;
+						color: #646464;
+						margin: 0 0 10px; 
+					}
+					ul{
+						li{
+							display: block;
+							position: relative;
+							padding-left: 20px;
+							font-family: $two;
+							font-style: italic;
+							font-size: 14px;
+							color: #a5a5a5;
+							&:after{
+								content:'';
+								position: absolute;
+								left: 0;
+								width: 10px;
+								height: 10px;
+								border-radius: 100%;
+								border:2px solid #333;
+								top: 7px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.brand-list{
+	display: block;
+	width: 100%;
+	margin-top: -15px;
+	.brands{
+		width: 50%;
+		display: inline-block;
+		float: left;
+		padding:15px;
+		figure{
+			img{
+				width: 100%;
+				&.nor{
+					display: block;
+				}
+				&.hov{
+					display: none;
+				}
+			}
+			&:hover{
+				img{
+					&.nor{
+						display: none;
+					}
+					&.hov{
+						display: block;
+					}
+				}
+			}
+		}
+	}
+}
+.brand-area{
+	.beand2-slider{
+		figure{
+			img{
+				&.nor{
+					display: block;
+				}
+				&.hov{
+					display: none;
+				}
+			}
+			&:hover{
+				img{
+					&.nor{
+						display: none;
+					}
+					&.hov{
+						display: block;
+					}
+				}
+			}
+		}
+	}
+}
